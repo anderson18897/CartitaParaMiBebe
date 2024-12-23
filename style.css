@@ -269,8 +269,10 @@ body {
     color: crimson;
     font-size: 30px;
     text-align: center;
-    margin-top: -150px;
-  }
+    margin-top: 20px; /* Ajusta según diseño */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    position: relative; /* Evita conflictos de posición */
+  }  
   
 
   @media (max-width: 768px) {
