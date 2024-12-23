@@ -1,6 +1,3 @@
-// Limpia el localStorage antes de pruebas
-// localStorage.clear(); // Descomenta para limpiar valores previos
-
 // Configuración de la cuenta regresiva
 const targetDate = new Date(new Date().getFullYear(), 11, 24, 0, 0, 0); // 24 de diciembre a las 00:00 horas
 let countDownDate = localStorage.getItem('countDownDate'); // Recupera la fecha guardada
